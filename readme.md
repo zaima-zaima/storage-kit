@@ -5,19 +5,19 @@
 install
 
 ```
-npm i storage-tool
+npm i storage-kit
 ```
 
 import
 
 ```js
-import StorageTool from "storage-tool";
+import StorageKit from "storage-kit";
 ```
 
 before you start, you should to create a instance like:
 
 ```js
-const st = new StorageTool();
+const st = new StorageKit();
 ```
 
 this instance provide some functions for you
@@ -35,7 +35,7 @@ st.add(storageObject);
 storageObject:
 
 - type: `object` or `array`
-  object: you can add one item in one time, it should be : {key:value}
+  object: you can add one item in one time, it should be : {key:value}</br>
   array: you can add some items in currently, it should be : [ {key:value} , {key,value} ]
 
 Example:

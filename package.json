@@ -1,17 +1,22 @@
 {
-  "name": "storage-tool",
-  "version": "1.0.0",
+  "name": "storage-kit",
+  "version": "1.0.1",
   "description": "make operate localStorage simply",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaima-zaima/storage-kit"
   },
   "keywords": [
     "localStorage",
     "storage",
     "tool",
     "tools",
-    "localStorage-tool"
+    "localStorage-tool",
+    "lcalStorage-kit"
   ],
   "author": "zaima <1206691662@outlook.com>",
   "license": "MIT"
