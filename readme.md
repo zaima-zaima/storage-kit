@@ -35,8 +35,8 @@ st.add(storageObject);
 storageObject:
 
 - type: `object` or `array`
-  object: you can add one item in one time, it should be : {key:value}</br>
-  array: you can add some items in currently, it should be : [ {key:value} , {key,value} ]
+  - object: you can add one item in one time, it should be : {key:value}</br>
+  - array: you can add some items in currently, it should be : [ {key:value} , {key,value} ]
 
 Example:
 
@@ -65,7 +65,7 @@ you can write this directly, you needn't convert it from Object to string, tool 
 
 #### get
 
-this function could get you what you want
+this function could get what you want by `key`
 
 ```
 st.get(key);
