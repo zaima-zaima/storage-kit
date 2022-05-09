@@ -35,7 +35,7 @@ st.add(storageObject);
 storageObject:
 
 - type: `object` or `array`
-  - object: you can add one item in one time, it should be : {key:value}</br>
+  - object: you can add one item in one time, it should be : {key:value}
   - array: you can add some items in currently, it should be : [ {key:value} , {key,value} ]
 
 Example:
